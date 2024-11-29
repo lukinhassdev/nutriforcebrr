@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+header .menu {
+    padding: 50px;
+    background-color: #229C00;
+    font-size: 20px;
+}
+header .menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 15vh;
+}
+header .menu ul a {
+    text-decoration: none;
+    color: #fff;
+}
+header .menu ul li a {
+    font-size: 20px;
+    color: white;
+}
+header .menu ul li a:hover {
+    font-size: 22px;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    color: gold;
+}
+header .menu ul li button {
+    padding: 10px;
+    background-color: gold;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+header .menu ul li button:hover {
+    background-color: greenyellow;
+    transition: 0.3s ease;
+}
+.pai {
+    display: flex;
+    margin: 12rem;
+    gap: 3rem;
+    color: white;
+    align-items: center;
+}
+.text-pai {
+    display: flex;
+    flex-direction: column;
+}
+.pai h1 {
+    font-size: 35px;
+}
+.pai p {
+    font-size: 25px;
+    margin-top: 5vh;
+}
+.pai input {
+    padding: 10px;
+    margin-top: 10vh;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.pai button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gold;
+    margin-top: 10vh;
+    border: none;
+    cursor: pointer;
+}
+.pai button:hover {
+    padding: 12px;
+    background-color: greenyellow;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+footer {
+    background-color: #333;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+footer p{
+    margin-top: 10px;
+}
+footer .social-icon {
+    display: flex;
+    list-style: none;
+}
